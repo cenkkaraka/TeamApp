@@ -1,0 +1,28 @@
+# TeamApp Veritabanı Kurulum Rehberi
+
+## 1. Gerekenler
+- PostgreSQL kurulu olmalı.
+
+## 2. Yükleme Adımları
+
+1. Komut satırını aç.
+2. `TeamApp.sql` dosyasını indirdiğin klasöre git.
+3. Şu komutları sırayla çalıştır:
+
+```sh
+createdb -U postgres TeamApp
+psql -U postgres -d TeamApp -f TeamApp.sql
+```
+
+Varsayılan kullanıcı adı: `postgres`  
+Varsayılan şifre: `cenk2002`
+
+> Eğer kendi kullanıcı adın ve şifren farklıysa ona göre değiştir.
+
+## 3. Bağlantı Ayarı
+
+`database.py` dosyasında şu şekilde olmalı:
+
+```python
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres:cenk2002@localhost/TeamApp"
+```
