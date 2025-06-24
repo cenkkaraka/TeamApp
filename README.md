@@ -9,7 +9,7 @@
 ---
 
 ## Genel Sıkıntı
-- PostreSQL kullanıldığı için apk sıkıntılı oldu tekrardan apk oluşturulmaya çalışıldı.
+- PostreSQL kullanıldığı için apk sıkıntılı oldu tekrardan apk oluşturulmaya çalışıldı.Apk da network hatası alıyor.
 
 ---
 
