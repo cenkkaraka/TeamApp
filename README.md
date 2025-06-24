@@ -5,11 +5,11 @@
 - **Frontend:** React Native (mobil uygulama)
 - **Backend:** FastAPI (Python)
 - **Veritabanı:** PostgreSQL
-- 
+  
 ---
 
 ## Genel Sıkıntı
-- PostreSQL kullanıldığı için apk sıkıntılı oldu firebase'le tekrardan apk oluşturulmaya çalışıldı.
+- PostreSQL kullanıldığı için apk sıkıntılı oldu tekrardan apk oluşturulmaya çalışıldı.
 
 ---
 
